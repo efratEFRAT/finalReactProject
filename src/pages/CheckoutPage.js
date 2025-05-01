@@ -1,4 +1,4 @@
 export default function CheckoutPage() {
-    return <div>Welcome to the home page</div>;
+    return <div>Welcome to the Check out Page</div>;
   }
   

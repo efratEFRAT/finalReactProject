@@ -1,0 +1,58 @@
+/* כל העמוד עם רקע שחור */
+.full-width-banner {
+    width: 100%;
+    background-color: #000; /* רקע שחור */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;  /* ממרכז את התוכן אופקית */
+    align-items: center;  /* ממרכז את התוכן אנכית */
+    min-height: 100vh;  /* מבטיח שהתמונה תימתח על כל גובה הדף */
+    text-align: right; /* הטקסט יהיה מימין לשמאל */
+  }
+  
+  /* אלמנטים בתמונה או טקסט */
+  .banner-text {
+    color: #fff; /* צבע טקסט לבן */
+    max-width: 1000px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    direction: rtl;
+    padding: 0 20px; /* מרווחים פנימיים שיבטיחו שהטקסט לא יימחק */
+  }
+  
+  /* כותרת */
+  .banner-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #fff; /* קו תחתון לבן */
+    padding-bottom: 10px;
+  }
+  
+  /* קופסה עם רקע לבן */
+  .info-box {
+    background-color: #fff; /* רקע לבן בתוך הקופסה */
+    color: #333; /* טקסט כהה */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* כפתור "קרא עוד" */
+  .read-more-btn {
+    background-color: #007bff; /* צבע כחול לכפתור */
+    color: #fff; /* צבע טקסט לבן */
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #0056b3; /* צבע כחול כהה בעת hover */
+  }
+  

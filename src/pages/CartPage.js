@@ -1,4 +1,4 @@
 export default function CartPage() {
-    return <div>Welcome to the home page</div>;
+    return <div>Welcome to the Cart Page</div>;
   }
   

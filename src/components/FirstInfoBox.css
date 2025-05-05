@@ -1,0 +1,62 @@
+.third-info-wrapper {
+  background-color: black;
+  padding: 40px 0;
+}
+
+.third-info-box {
+  background-color: black;
+  padding: 0;
+}
+
+.info-image {
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.info-text-col {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.info-text-body {
+  padding: 30px;
+  text-align: right;
+}
+
+.info-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+.orange-line {
+  width: 60px;
+  height: 2px;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+
+.info-paragraph {
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+
+.order-button {
+  margin-top: 25px;
+  padding: 10px 22px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.order-button:hover {
+  background-color: orange;
+  border-color: orange;
+  color: black;
+}

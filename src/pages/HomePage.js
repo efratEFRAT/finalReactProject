@@ -7,22 +7,18 @@ import ThirdInfoBox from '../components/ThirdInfoBox';
 import About from '../components/About';
 import ContactForm from "../components/ContactForm";
 
-
-
 export default function HomePage() {
-    return (<>
-        <BannerImage></BannerImage>
-        <InfoBox></InfoBox>
-        <ImageGallery></ImageGallery>
-        <FirstInfoBox></FirstInfoBox>
-        <SecondInfoBox></SecondInfoBox>
-        <ThirdInfoBox></ThirdInfoBox> 
-        <About></About>
-        < ContactForm></ContactForm>
-
-        
-        </>
-    );
-    
-  }
+  return (
+    <div className="text-warning min-vh-100" style={{ backgroundColor: '#0d0d0d' }} dir="rtl">
+      <BannerImage />
+      <InfoBox />
+      <ImageGallery />
+      <FirstInfoBox />
+      <SecondInfoBox />
+      <ThirdInfoBox />
+      <About />
+      <ContactForm />
+    </div>
+  );
+}
   

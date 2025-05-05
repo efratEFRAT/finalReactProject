@@ -1,10 +1,10 @@
 import React from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
 
-import img1 from '../assets/5.jpg'; 
-import img2 from '../assets/2.jpg';
-import img3 from '../assets/3.jpg';
+import img2 from '../assets/2.jpg'
+import img3 from '../assets/3.jpg'
 import img4 from '../assets/4.jpg';
+import img5 from '../assets/5.jpg';
 
 export default function ImageGallery() {
   return (
@@ -13,7 +13,7 @@ export default function ImageGallery() {
         {/* תמונה 1 */}
         <Col md={3} className="mb-4">
           <Card>
-            <Card.Img variant="top" src={img1} />
+            <Card.Img variant="top" src={img5} />
             <Card.Body>
               <Card.Text>מגשי פירות</Card.Text>
             </Card.Body>

@@ -16,7 +16,7 @@ export default function HomePage() {
         <ImageGallery></ImageGallery>
         <FirstInfoBox></FirstInfoBox>
         <SecondInfoBox></SecondInfoBox>
-        <ThirdInfoBox></ThirdInfoBox>
+        <ThirdInfoBox></ThirdInfoBox> 
         <About></About>
         < ContactForm></ContactForm>
 

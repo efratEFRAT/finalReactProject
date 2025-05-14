@@ -29,7 +29,6 @@ export default function MyNavbar() {
     { to: '/', text: 'Home' },
     { to: '/products', text: 'Products' },
     { to: '/cart', text: 'Cart' },
-    { to: '/checkout', text: 'Checkout' },
     { to: '/about', text: 'About' },
     { to: '/contact', text: 'Contact' },
     { to: '/recommendations', text: 'recommendations' },
